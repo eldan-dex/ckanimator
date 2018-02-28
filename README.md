@@ -22,6 +22,8 @@ Likely location of the Bloody6 resource directory:
 C:\Program Files (x86)\Bloody6\Bloody6\Data\RES\English\SLED\Standard8
 ```
 
+Sorry for messy code. I don't honestly expect anyone to use this ever.
+
 ## License
 
 MIT
