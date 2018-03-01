@@ -8,7 +8,7 @@ The script is pre-set to generate an example .ckAnimation file out-of-the-box.
 
 1. Create and save a custom still frame animation using the [Bloody6] editor
 2. Locate Bloody6' resource directory and open your custom .ckAnimation file in a text editor
-3. Copy the contents of its <ColorPicture> tags into ckanimator.py file's COLOR_LIST as instructed (overwrite example)
+3. Copy the contents of its `<ColorPicture>` tags into ckanimator.py file's `COLOR_LIST` as instructed (overwrite example)
 4. Further customize the script's variables to your liking
 5. Run the script using [Python 3]
 6. Import the output file into the Bloody6 suite
