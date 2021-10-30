@@ -45,8 +45,7 @@ def frame(frameNum, colors, dTime):
 	sList = []
 	sList.append("\t<Frame{}>\n\t\t<ColorPicture>".format(frameNum))
 	sList.append(",".join(colors))
-	sList.append("</ColorPicture>\n\t\t<DisplayTime>{0:.3f}</DisplayTime>\n\t</Frame{1}>\n"
-		.format(dTime, frameNum))
+	sList.append("</ColorPicture>\n\t\t<DisplayTime>{0:.3f}</DisplayTime>\n\t</Frame{1}>\n".format(dTime, frameNum))
 	return "".join(sList)
 
 def rgbStep(rgb1, rgb2):
@@ -97,9 +96,8 @@ def main():
 		print("         Mouse support is possible but not guaranteed.")
 		print("         Exceeding the frame limit may lead to memory access violation!")
 
-	content = generateContent()
 	with open(FILE_NAME + ".ckAnimation", "w") as f:
-		f.write(content)
+		f.write(generateContent())
 
 if __name__ == "__main__":
     main()
