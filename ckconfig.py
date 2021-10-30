@@ -1,3 +1,8 @@
+##########################
+# Configuration file for #
+# ckanimator version 0.1 #
+##########################
+
 # Output file name:
 FILE_NAME = "output"
 

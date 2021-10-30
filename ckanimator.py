@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+##########################
+# ckanimator version 0.1 #
+##########################
+
 from ckconfig import *
 
 # Number of manually entered frames:
